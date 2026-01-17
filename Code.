@@ -1,0 +1,73 @@
+RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 17/01/2026
+Empresa: Abstergo Industries
+Responsável: [Fábio]
+
+1. Introdução
+
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por [Seu Nome].
+
+O objetivo do projeto foi implementar 3 serviços AWS estratégicos, com foco em:
+
+Redução de custos imediatos
+
+Aumento da segurança
+
+Melhoria na eficiência operacional
+
+2. Descrição do Projeto
+
+O projeto foi dividido em 3 etapas, cada uma abordando um serviço AWS específico.
+
+Etapa 1
+
+Nome da ferramenta: Amazon VPC (Virtual Private Cloud)
+
+Foco da ferramenta: Criação de redes privadas e segmentação de recursos.
+
+Descrição de caso de uso:
+Implementação de uma VPC dedicada para isolar servidores de produção e desenvolvimento, configurando sub-redes públicas e privadas, Internet Gateway, NAT Gateway e Security Groups. Isso garantiu segurança, controle de tráfego e conectividade eficiente entre serviços internos e externos.
+
+Etapa 2
+
+Nome da ferramenta: AWS Direct Connect
+
+Foco da ferramenta: Conexão privada entre o datacenter corporativo e a AWS.
+
+Descrição de caso de uso:
+Configuração de uma conexão dedicada via fibra óptica, permitindo transferência de dados segura e de alta velocidade entre a infraestrutura local e a nuvem AWS. Isso reduziu latência e custos de tráfego pela Internet pública.
+
+Etapa 3
+
+Nome da ferramenta: Amazon EC2 + Security Groups
+
+Foco da ferramenta: Hospedagem de aplicações web seguras.
+
+Descrição de caso de uso:
+Implantação de instâncias EC2 distribuídas em múltiplas Zonas de Disponibilidade, com Security Groups configurados para controle de tráfego de entrada e saída, permitindo que aplicações web de múltiplas camadas fossem acessadas de forma segura pela Internet e entre serviços internos.
+
+3. Conclusão
+
+A implementação dessas ferramentas na empresa Abstergo Industries trouxe os seguintes benefícios esperados:
+
+Segurança aprimorada: segmentação de rede e controle de acesso detalhado.
+
+Redução de custos: otimização do tráfego de dados e uso eficiente de instâncias.
+
+Melhoria na eficiência operacional: alta disponibilidade, balanceamento de carga e controle de tráfego interno/externo.
+
+Recomenda-se a continuidade do uso dessas ferramentas e a avaliação de novos serviços AWS que possam melhorar ainda mais os processos da empresa, como Amazon RDS, CloudWatch e S3 para backup e monitoramento.
+
+4. Anexos
+
+Diagramas de arquitetura da VPC
+
+Planilhas de custos estimados e reais
+
+Documentação de configuração do Direct Connect
+
+Prints de configuração de Security Groups e sub-redes
+
+Assinatura do Responsável pelo Projeto:
+[Fábio
